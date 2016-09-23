@@ -14,7 +14,7 @@ namespace LegoApi.Controllers
         public ValuesController()
         {
             HybridTechnologies techs = new HybridTechnologies();
-            techs.Names = new List<string>() { "Xamrin", "NativeScript", "Phonegap" };
+            techs.Names = new List<string>() { "Xamrin", "NativeScript", "PhoneGap" };
             _techs[Guid.NewGuid().ToString()] = techs;
         }
 
